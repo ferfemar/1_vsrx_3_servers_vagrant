@@ -1,7 +1,7 @@
-Simple vSRX w/ two servers topology
+Simple vSRX w/ three servers topology
 ===================================
 
-A Vagrant topology using official Juniper vSRX image and two Alpine Linux servers for testing.
+A Vagrant topology using official Juniper vSRX image and three extremely lightweight Tiny Core Linux servers for testing network connectivity.
 
 Topology
 ========
