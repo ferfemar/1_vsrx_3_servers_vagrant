@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     # srx.vm.provision "file", source: "configs/configure.sh", destination: "/cf/root/configure.sh"
     # srx.vm.provision "shell", inline: "/bin/sh /cf/root/configure.sh", privileged: false
     srx.vm.provision :host_shell do |host_shell|
-     host_shell.inline = 'vagrant ssh vsrx1 -c "/usr/sbin/cli -f /cf/root/initial.cfg"'
+     host_shell.inline = "vagrant ssh vsrx1 -c 'cli -f /cf/root/initial.cfg'"
     end
   end
 
