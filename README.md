@@ -3,6 +3,8 @@ Simple vSRX w/ three servers topology
 
 A Vagrant topology using official Juniper vSRX image and three extremely lightweight Tiny Core Linux servers for testing network connectivity.
 
+Blogpost: http://overloadedbits.eu/vagrant_topologies/
+
 Topology
 ========
 ```
